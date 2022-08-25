@@ -1,0 +1,20 @@
+.card-style {
+    width: 352px;
+    height: 388px;
+    border-radius: 16px;
+    background: #FFFFFF;
+    margin-bottom: 40px;
+}
+
+.image-style {
+    position: absolute;
+    width: 352px;
+    height: 208px;
+}
+
+.content-style {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+}

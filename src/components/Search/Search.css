@@ -1,0 +1,12 @@
+.search-style {
+    width: 1300px;
+    height: 30px;
+    border: none;
+    /* background: rgba(49, 48, 55, 0.1); */
+    background-image: url(../../../public/search.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.search-style:focus {
+    background-image: none;
+}

@@ -1,0 +1,13 @@
+
+.title-style {
+    display: flex;
+    width: 1119px;
+    margin: 72px auto 0 auto;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 56px;
+    padding-top: 60px;
+    color: #313037;
+    background-color: #E5E5E5;
+}
