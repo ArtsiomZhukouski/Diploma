@@ -1,4 +1,7 @@
 .card-style {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
     width: 352px;
     height: 388px;
     border-radius: 16px;
@@ -7,14 +10,34 @@
 }
 
 .image-style {
-    position: absolute;
+    border-radius: 16px;
     width: 352px;
     height: 208px;
 }
 
+.image-style img {
+    border-radius: 16px 16px 0 0;
+}
+
+.content-date {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: rgba(49, 48, 55, 0.5);
+    margin: 0px;
+}
+
 .content-style {
+    width: 352px;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding: 32px;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 600;
     font-size: 18px;
+    line-height: 28px;
 }
