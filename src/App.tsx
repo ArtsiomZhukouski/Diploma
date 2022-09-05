@@ -7,6 +7,7 @@ import TabsSection from './components/Tabs/Tabs';
 import SortingSection from './components/Sorting/Sorting';
 import CardsSection from './components/CardsSection/CardsSection';
 
+
 function App() {
   return (
     <>
